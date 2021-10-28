@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Cabin', sans-serif;
+font-family: 'Rajdhani', sans-serif; */
+}
+.landing {
+    background-image: url(./imgs/bikeweb_03-Current-View.png) ;
+    min-height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+    padding-bottom: 0;
+}
+.logo img {
+    cursor: pointer;
+}
+header {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    z-index: 2;
+}
+header .container {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+} 
+#one {
+    color: #fff;
+    font-family: 'Cabin', sans-serif;
+    font-size: 24px;
+    line-height: 100px;
+    position: relative;
+    top: -25px;
+    right: -20px;
+}
+#two {
+    color: #51E8EF;
+    font-family: 'Cabin', sans-serif;
+    font-size: 12px;
+    line-height: 65px;
+    position: relative;
+    right: 60px;
+    letter-spacing: 10px;
+}
+header nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+ul {
+    list-style: none;
+}
+header nav ul {
+    display: inline-flex;
+}
+header a {
+    text-decoration: none;
+}
+
+header nav ul li a {
+    display: block;
+    color: #707070;
+    line-height: 16px;
+    font-family: 'Cabin', sans-serif;
+    text-decoration: none;
+    font-size: 13px;
+    transition: 0.3s;
+    position: relative;
+    z-index: 2;
+    padding-left: 100px;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    cursor: pointer;
+}
+header nav ul li a:hover {
+    color: #51E8EF;
+}
+.contain {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    padding-left: 100px;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+#first {
+    font-family: 'Cabin', sans-serif;
+    font-size: 64px;
+    line-height: 100px;
+    color: #fff;
+}
+#second {
+    font-family: 'Cabin', sans-serif;
+    font-size: 94px;
+    line-height: 95px;
+    color: #51E8EF;
+}
+#third {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    color: #707070;
+}
+.contain img {
+    padding-top: 30px;
+    cursor: pointer;
+}
+.footer {
+    position: absolute;
+    top: 92%;
+    right: 50%;
+}
+.footer p {
+    color: #707070;
+    font-family: 'Cabin', sans-serif;
+    font-size: 13px;
+}
+.footer span {
+    color: #fff;
+    font-family: 'Cabin', sans-serif;
+    font-size: 15px;
+    line-height: 40px;
+}
+.footer .one::before {
+    content: url(./imgs/Path\ 31.png);
+    position: absolute;
+    right: 82px;
+}
+.two {
+    position: absolute;
+    top: 0;
+    right: -400px;
+}
+.footer .two::before {
+    content: url(./imgs/Path\ 31.png);
+    position: absolute;
+    right: 92px;
+}
+.three {
+    position: absolute;
+    top: 0;
+    right: -800px;
+}
+.footer .three::before {
+    content: url(./imgs/Path\ 31.png);
+    position: absolute;
+    right: 82px;
+}
+.contain-2 {
+    position: absolute;
+    top: 50%;
+}
+.img-1 {
+    position: relative;
+    left: 793px;
+    bottom: -148px;
+}
+.img-2 {
+    position: relative;
+    left: 800px;
+    bottom: 173px;
+}
+.img-3 {
+    position: relative;
+    left: 838px;
+    bottom: -46px;
+}
+.img-4 {
+    position: relative;
+    left: 1079px;
+    bottom: 55px;
+}
